@@ -1,0 +1,26 @@
+{
+  "name": "theseus-lost",
+  "publisher": "TheseusLost",
+  "displayName": "TheseusLost",
+  "description": "A dark blue theme. My first experience with JS",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+"contributes": {
+
+    "themes": [
+      {
+        "label": "TheseusLost",
+        "uiTheme": "vs-dark",
+        "path": "./themes/TheseusLost-color-theme.json"
+      }
+    ],
+
+    "semanticHighlighting": true
+  }
+}
+
